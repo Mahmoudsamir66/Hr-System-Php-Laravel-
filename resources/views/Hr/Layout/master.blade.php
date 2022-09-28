@@ -1,0 +1,5 @@
+@include('Hr.Layout.header')
+@include('Hr.Layout.sidebar')
+@include('Hr.Layout.navbar')
+@yield('content')
+@include('Hr.Layout.footer')
